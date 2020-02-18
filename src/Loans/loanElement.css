@@ -1,0 +1,36 @@
+.Loan-element-wrapper{
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #EEEEEE;
+}
+
+.Element-title{
+    margin: 5px 0;
+}
+
+.Element-main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Element-button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Element-button{
+    height: 36px;
+    width: 100px;
+    background-color: #FEEE00;
+    border: 1px solid rgb(255, 208, 0);
+    align-self: flex-end;
+}
+
+.Element-invested{
+    color: green;
+    align-self: flex-end;
+    display: none;
+}
